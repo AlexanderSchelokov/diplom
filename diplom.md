@@ -203,6 +203,9 @@ Http доступ к тестовому приложению.
 
 ![image](https://github.com/user-attachments/assets/8ddf91da-7634-44ad-91f0-d89997d67a6d)
 
+![image](https://github.com/user-attachments/assets/587f8eea-bf32-44ca-b155-da740707915d)
+
+
 
 Ожидаемый результат:
 
@@ -212,14 +215,25 @@ Http доступ к тестовому приложению.
 
 При любом коммите в репозиторие с тестовым приложением происходит сборка и отправка в регистр Docker образа.
 
-![image](https://github.com/user-attachments/assets/44f30be0-ce8b-4344-a2e3-2d892643e8c0)
-
-
 При создании тега (например, v1.0.0) происходит сборка и отправка с соответствующим label в регистри, а также деплой соответствующего Docker образа в кластер Kubernetes.
 
-![image](https://github.com/user-attachments/assets/b016f6e4-4805-452f-a444-ee3d513ca91e)
 
-![image](https://github.com/user-attachments/assets/a4003623-c403-4231-88dc-6ab2d420410e)
+Ссылка на pipeline https://github.com/AlexanderSchelokov/nginx/blob/main/Jenkinsfile
+
+
+![image](https://github.com/user-attachments/assets/ae3ed3de-8af0-443b-90c1-59928a3851e4)
+
+
+![image](https://github.com/user-attachments/assets/274126af-8e3c-46e8-9cd4-a2e8a1103845)
+
+![image](https://github.com/user-attachments/assets/b119630b-679e-420f-99a2-c168afa3809f)
+
+![image](https://github.com/user-attachments/assets/ee0bfc74-6ee5-4e59-81f5-80713ad2ea31)
+
+![image](https://github.com/user-attachments/assets/c1edd394-cf82-48c6-abb4-f6b8eb7e5a42)
+
+![image](https://github.com/user-attachments/assets/3a475364-3597-4ebb-ba23-4c0656ff5f80)
+
 
 
 ---
